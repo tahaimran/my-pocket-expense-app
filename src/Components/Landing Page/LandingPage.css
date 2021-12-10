@@ -1,3 +1,90 @@
-.container{
+/* Navbar */
+.navbar  {
+    font-size: 20px;
+    background-color: #128C7E;
+
+}
+
+.navbar .container ul li p,
+a {
+    color: white !important;
+
+}
+
+/* TopBanner */
+.TopBanner{
+    margin-top: 50px;
+}
+.TopBanner h3 {
+    font-size: 2em;
+}
+
+.TopBanner p {
+    font-size: 1.2em;
+}
+
+.TopBanner span {
+    color: #128C7E;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* MainInfo */
+.MainInfo {
+    margin-top: 50px;
+}
+
+.MainInfo .left {
+    background-color: #D8E8EA;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.MainInfo .right {
+    background-color: #E7F0E4;
+}
+
+.MainInfo h3 {
+    font-size: 2em;
+    font-weight: 700;
     margin-top: 10px;
+}
+
+.MainInfo p {
+    margin: 30px;
+    font-weight: 500;
+    color: #4e504e;
+}
+
+/* Footer Top */
+.FooterTop {
+    background-color: #273443;
+    color: white;
+    padding: 60px;
+    margin-top: 100px !important;
+}
+
+.FooterTop h4 {
+    margin-bottom: 30px;
+    font-weight: 600;
+
+}
+
+.FooterTop li {
+    list-style-type: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Footer Bottom */
+.FooterBot {
+    padding: 22px;
+    background-color: #1C1E21;
+    color: white;
+}
+.FooterBot span{
+    padding-left: 80px ;
+    font-weight: 600;
+    font-size: 1.1em;
 }

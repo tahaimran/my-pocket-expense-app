@@ -2,37 +2,36 @@ import React from 'react'
 
 function FooterTop() {
     return (
-        <div className="container">
-            <div className="row">
+        <div className="container-fluid ">
+            <div className="row  FooterTop">
                 <div className="col-md-3">
-                    <h4>WHATSAPP</h4>
-                    <p>Features</p>
-                    <p>Security</p>
-                    <p>Download</p>
-                    <p>WhatsApp Web
-                    </p>
-                    <p>Business</p>
-                    <p>Privacy</p>
+                    <h4>Chat App</h4>
+                    <li>Features</li>
+                    <li>Security</li>
+                    <li>Download</li>
+                    <li>Chat App Web</li>
+                    <li>Business</li>
+                    <li>Privacy</li>
                 </div>
                 <div className="col-md-3">
                     <h4>COMPANY</h4>
-                    <p>Careers</p>
-                    <p>Brand Center</p>
-                    <p>Get in touch</p>
-                    <p>Blog</p>
-                    <p>WhatsApp Stories</p>
-                    <p>About</p>
+                    <li>Careers</li>
+                    <li>Brand Center</li>
+                    <li>Get in touch</li>
+                    <li>Blog</li>
+                    <li>Chat App Stories</li>
+                    <li>About</li>
                 </div>
                 <div className="col-md-3">
                     <h4>DOWNLOAD</h4>
-                    <p>Mac/PC</p>
+                    <li>Mac/PC</li>
                 </div>
                 <div className="col-md-3">
                     <h4>HELP</h4>
-                    <p>Help Center</p>
-                    <p>Twitter</p>
-                    <p>Facebook</p>
-                    <p>Coronavirus</p>
+                    <li>Help Center</li>
+                    <li>Twitter</li>
+                    <li>Facebook</li>
+                    <li>Coronavirus</li>
 
                 </div>
             </div>
