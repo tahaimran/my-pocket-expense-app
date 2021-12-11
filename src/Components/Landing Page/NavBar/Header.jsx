@@ -5,7 +5,7 @@ function Header() {
     <div>
       <nav className="navbar">
         <div className="container">
-          <h3 className="navbar-brand" ><Link to="/">Chat App</Link></h3>
+          <h3 className="navbar-brand" ><Link to="/">My Pocket</Link></h3>
           <div className="nav d-flex justify-space-around" id="navbarSupportedContent">
             <ul className="nav mb-2 p-2 mb-lg-0">
               <li className="nav-item">
@@ -15,7 +15,7 @@ function Header() {
                 <p className="nav-link">Team</p>
               </li>
               <li className="nav-item">
-                <p className="nav-link "> <a href="">Sign Up</a> </p>
+                <p className="nav-link "><Link to="/dashboard">Expense Tracker</Link></p>
               </li>
             </ul>
           </div>

@@ -5,7 +5,7 @@ function FooterTop() {
         <div className="container-fluid ">
             <div className="row  FooterTop">
                 <div className="col-md-3">
-                    <h4>Chat App</h4>
+                    <h4>Track Expense</h4>
                     <li>Security</li>
                     <li>Business</li>
                     <li>Privacy</li>

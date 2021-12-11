@@ -10,7 +10,7 @@ function TopBanner() {
                     <div className='AppData  p-5'>
                         <h3>Simple. Secure.
                             Reliable messaging.</h3>
-                        <p>With WhatsApp, you'll get fast, simple, secure messaging and calling for free*,
+                        <p>With My Pocket, you'll get fast, simple, secure messaging and calling for free*,
                             available on phones all over the world.</p>
                         <span><LaptopWindowsIcon color="action" />Mac or Windows PC <ArrowForwardIosIcon /> </span>
                     </div>
