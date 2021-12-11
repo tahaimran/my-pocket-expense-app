@@ -15,7 +15,7 @@ function Header() {
                 <p className="nav-link">Team</p>
               </li>
               <li className="nav-item">
-                <p className="nav-link "> <Link to=''>Sign Up</Link> </p>
+                <p className="nav-link "> <a href="">Sign Up</a> </p>
               </li>
             </ul>
           </div>

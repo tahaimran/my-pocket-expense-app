@@ -88,3 +88,15 @@ a {
     font-weight: 600;
     font-size: 1.1em;
 }
+
+
+.imageChat{
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    top: 70%;
+}
+.imageChat:hover{
+   transform: rotate(360deg);
+   transition-duration: 1s;
+}

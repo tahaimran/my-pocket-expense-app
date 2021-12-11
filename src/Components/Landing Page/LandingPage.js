@@ -4,12 +4,14 @@ import TopBanner from "./TopBanner/TopBanner"
 import MainInfo from './MainInfo/MainInfo'
 import FooterTop from './FooterTop/FooterTop'
 import FooterBot from './FooterBot/FooterBot'
+import Whatsapp from './Whatsapp CTA/whatsapp'
 import './LandingPage.css'
 function LandingPage() {
     return(
         <div>
             <Header />
             <TopBanner />
+            <Whatsapp />
             <MainInfo />
             <FooterTop />
             <FooterBot />
