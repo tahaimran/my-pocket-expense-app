@@ -108,3 +108,28 @@ a {
    transform: rotate(360deg);
    transition-duration: 1s;
 }
+
+
+
+
+
+
+
+
+
+.ceo {
+    color: #1C1E21;
+    width: 50%;
+    margin-left: 25% !important;
+
+}
+
+.kyle{
+    border-radius: 30px;
+    width: 100px;
+}
+.ceo h3,
+p {
+
+    color: #1C1E21;
+}
