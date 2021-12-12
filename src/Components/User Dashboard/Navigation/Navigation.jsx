@@ -11,7 +11,6 @@ function Navigation() {
                 <ul >
                     <Link to='/tracker'><li>Expense Tracker</li></Link>
                     <Link to='/finedu'> <li>Fin Edu</li></Link>
-                    <li>Chat</li>
                     <Link to='/faq'><li>FAQ</li></Link>
                     <Link to='/'><li>Back</li></Link>
                 </ul>

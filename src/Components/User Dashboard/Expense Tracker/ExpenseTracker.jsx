@@ -8,8 +8,12 @@ import AddTransaction from './AddTransaction';
 
 import './ExpenseTracker.css'
 import { GlobalProvider } from '../../../Configuration/Context/GobalState';
+
+
 function ExpenseTracker() {
+
     return (
+
         <GlobalProvider>
             <Navigation />
             <div className="containers">
