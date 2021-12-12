@@ -1,19 +1,23 @@
-import React from "react";
-import {Link} from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+import MenuIcon from '@mui/icons-material/Menu';
 function Navigation() {
- 
-    return(
-        <div className="Navigation text-center">
-            <ul>
+    const [nav, setNav] = useState(true);
 
-                <Link to='/tracker'><li>Expense Tracker</li></Link>
-                <li>Fin Edu</li>
-                <li>Chat</li>
-                <li>FAQ</li>
-                <Link to='/dashboard'><li>Back</li></Link>
+    return (
+        <>
+            <button className="ham" onClick={() => setNav(!nav)}><MenuIcon sx={{ fontSize: 40 }}/></button>
+            <div className={nav ? "Navigation text-center container col-md-2 " : "NavigationChange" }>
+                <ul >
+                    <Link to='/tracker'><li>Expense Tracker</li></Link>
+                    <Link to='/finedu'> <li>Fin Edu</li></Link>
+                    <li>Chat</li>
+                    <Link to='/faq'><li>FAQ</li></Link>
+                    <Link to='/'><li>Back</li></Link>
+                </ul>
+            </div>
+        </>
 
-            </ul>
-        </div>
     )
 }
 export default Navigation;

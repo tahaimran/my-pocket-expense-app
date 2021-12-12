@@ -1,0 +1,14 @@
+.faq h2{
+  font-size: 4em;
+  color: #C16E70;
+
+}
+.faq h4{
+  color: #C16E70;
+  font-size: 2em;
+}
+.faq .btn{
+  background-color: #C16E70;
+  color: #f2f3d9;
+  font-weight: 600;
+}

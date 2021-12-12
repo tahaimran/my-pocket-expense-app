@@ -1,25 +1,37 @@
+body{
+    background-color: #F2F3D9 !important;
+}
 
 .Navigation{
-    background-color: rgb(25, 158, 158);
-    width: 20%;
-    height: 100vh ;
+    background-color: #030027;
+    height: 100vh  ;
     float: left;
+    transition: 1s ease-out;
+}
+.NavigationChange{
+    display: none !important;
+ 
 }
 .Navigation ul{
     padding: 20px;
-
+    list-style-type: none;
 }
 .Navigation ul li{
-    list-style-type: none;
-    margin-top: 100px;
+    margin-top: 80px;
     font-weight: 600;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    border: 1px solid black;
-    border-radius: 20px;
+    font-size: 25px;
+    color: #f2f3d9;
+
 }
+
 .Navigation ul li:hover{
     cursor: pointer;
-    background-color: rgb(59, 54, 54);
+    background-color: #151E3F;
     transition: 0.2s ease-in-out;
+    border-top: 1px solid #f2f3d9;
+    border-radius: 20px;
+}
+
+.ham{
+    border:none;
 }

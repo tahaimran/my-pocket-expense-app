@@ -1,19 +1,24 @@
 /* Navbar */
+
 .navbar  {
-    font-size: 20px;
-    background-color: #16bebe;
+    font-size: 1.5em;
+    background-color: #030027;
 
 }
 
 .navbar .container ul li p,
 a {
-    color: white !important;
+    color: #F2F3D9 !important;
 
 }
 
 /* TopBanner */
 .TopBanner{
-    margin-top: 50px;
+    margin: 150px auto !important;
+
+    border-radius: 10px;
+    padding: 10px;
+    
 }
 .TopBanner h3 {
     font-size: 2em;
@@ -36,30 +41,33 @@ a {
 }
 
 .MainInfo .left {
-    background-color: #D8E8EA;
+    background-color: #E0B8B8;
     padding: 30px;
     padding-bottom: 0px;
+    color: #151E3F;
 }
 
 .MainInfo .right {
-    background-color: #E7F0E4;
+    background-color: #F2F3D9;
+    color: #151E3F;
 }
 
-.MainInfo h3 {
+.MainInfo h4 {
     font-size: 2em;
     font-weight: 700;
     margin-top: 10px;
+    color: #030027;
 }
 
 .MainInfo p {
     margin: 30px;
     font-weight: 500;
-    color: #4e504e;
+
 }
 
 /* Footer Top */
 .FooterTop {
-    background-color: #273443;
+    background-color: #030027;
     color: white;
     padding: 60px;
     margin-top: 100px !important;
