@@ -1,20 +1,20 @@
 # My Pocket Expense App
-Teaching Students Financial Education, helping them to implement strategies and be sure that they are tracking their expenses.
+Teaching Students Financial Education, helping them to implement strategies and be \ sure that they are tracking their expenses.
 
 
 ## Technologies Used
-HTML
-CSS
-JavaScript
-BootStrap
-Material-Ui
-React
-React-Router
-Context-Api
-Twillio Auto Pilot With Whatsapp
+HTML \
+CSS \  
+JavaScript \
+BootStrap \
+Material-Ui \
+React \
+React-Router \
+Context-Api \
+Twillio  \
 
 ### Website Deployed
-Firebase
+Firebase \
 .XYZ Custom Domain
 
 
